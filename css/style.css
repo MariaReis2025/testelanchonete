@@ -1,0 +1,12 @@
+/*padrao pc*/
+@media(max-width:4000px){
+    body{
+        background-color: blue;
+    }
+}
+/*padrao de celular*/
+@media(max-width:576px){
+    body{
+        background-color: red;
+    }
+}
