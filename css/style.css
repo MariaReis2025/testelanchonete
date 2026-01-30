@@ -7,6 +7,63 @@
 /*padrao de celular*/
 @media(max-width:576px){
     body{
-        background-color: red;
+        background-color: rgb(3, 51, 3);
     }
+    header img{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .direita{
+        text-align: right;
+    }
+    .s1 img{
+        border-radius: 50%;
+        outline: 3px solid rgb(203, 203, 219);
+        outline-offset: 2px;
+        width: 40px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .s1 h1{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding: 20px 0px;
+    }
+    .slider{
+        width: 200%;
+        overflow: hidden;
+        height: 250px;
+        padding: 20px 0px;
+    }
+    .slide_principal{
+        display: flex;
+        width: 200%;
+    }
+    .slidee{
+        width: 50%;
+        transition: margin-lefr 2s !important;
+    }
+    .slider input{
+        display: none;
+    }
+    .quadradinhos{
+        text-align: center;
+        margin-top: -25px;
+    }
+    .quadradinhos label{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #bola1:checked ~.primeiro{
+        margin-left: 0%;
+    }
+    #bola2:checked ~.primeiro{
+        margin-left: -50%;
+    }
+    .quadradinhos img{
+        width: 4%;
+        outline: 3px solid rgb(3, 51, 3);
+    }
+
 }
