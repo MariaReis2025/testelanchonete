@@ -65,5 +65,150 @@
         width: 4%;
         outline: 3px solid rgb(3, 51, 3);
     }
+    .s3{
+        padding: 20px;
+        text-align: center;
+    }
+    .s3 select{
+        margin: 10px 0;
+    }
+    .s3 h1{
+        font-size: 20px;
+        color: white;
+    }
+    .s3 button{
+        font-size: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+    }
+    .s3 button:hover{
+        background-color: black;
+    }
+    .fixo{
+        height: 40px;
+        background-color: rgb(49, 59, 49);
+        position: absolute;
+        z-index: 2;
+        top: 850px;
+        width: 100%;
+        color: white;
 
+    }
+    .historico{
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+    .historico img{
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .historico button{
+        margin-top: 15px;
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        margin-right: 5px;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+    .historico h1{
+        margin-top: 20px;
+        font-weight: 900;
+    }
+    .meus_dadoss2{
+        margin-top: 15px;
+    }
+    .meus_dadoss2 h1{
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .meus_dadoss2 input{
+        text-align: center;   
+        border-radius: 8px;     
+    }
+    .ddd{
+        width: 8%;
+        height: 30px;
+    }
+    .cel{
+        width: 35%;
+        height: 30px;
+    }
+    .compl{
+        width: 30%;
+        height: 30px;
+    }
+    .nome{
+        width: 60%;
+        height: 30px;
+    }
+    .termo{       
+        color: white;
+    }
+    .end{
+        height: 30px;
+    }
+    .cartao{
+        height: 30px;
+    }
+    .meus_dadoss2 button{
+        background-color: black;
+        color: white;
+        border: none;
+        width: 50%;
+        height: 40px;
+        font-size: 20px;
+         border-radius: 10px;
+    }
+    .meus_dadoss2 button:hover{
+        background-color: rgb(1,161,52);
+        color: black;
+       
+    }
+    .senha{
+        width: 50%;
+        height: 30px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    .recolher{
+        transform: rotate(180deg);
+    }
+    .grupo1{
+        background-color: white;
+        border:2px solid black;
+        margin-top: 10px;
+        width: 95%;
+        padding: 5px;
+        margin-left: 2.5%;
+        font-size: 20px;
+    }
+    .grupo1 .imagem1{
+        text-align: left;
+    }
+    .grupo2{
+        background-color: white;
+        border: 2px solid black;
+        margin-left: 8%;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .recolher{
+        width: 88.88%;
+    }
 }
+    
+
+
